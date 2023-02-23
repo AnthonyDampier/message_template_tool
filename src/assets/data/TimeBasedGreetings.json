@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "key": "morning",
+        "greeting": "Good morning" 
+    },
+    {
+        "id": 2,
+        "key": "afternoon",
+        "greeting": "Good afternoon" 
+    },
+    {
+        "id": 3,
+        "key": "evening",
+        "greeting": "Good evening" 
+    },
+    {
+        "id": 4,
+        "key": "default",
+        "greeting": "Greetings" 
+    }
+]
