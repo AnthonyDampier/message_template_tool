@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Initial Installs
+
+In root terminal use the commands
+1. `npm install`
+2. `npm install @mui/material @emotion/react @emotion/styled`
+
 ## Available Scripts
 
 In the project directory, you can run:
