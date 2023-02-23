@@ -3,7 +3,6 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import guestData from '../assets/data/Guests.json';
 
 export default function SelectGuest({guestData, guest, setGuest}) {
     
