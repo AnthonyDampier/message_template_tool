@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "message": "[TimeBasedGreeting] [guest-firstName], and welcome to [company]! Room [guest-reservation-roomNumber] is now ready you. Enjoy your stay, and let us know if you need anything." 
+    },
+    {
+        "id": 2,
+        "message": "Message 2: [TimeBasedGreeting] [guest-firstName], and welcome to [company]! Room [guest-reservation-roomNumber] is now ready you. Enjoy your stay, and let us know if you need anything." 
+    },
+    {
+        "id": 3,
+        "message": "Hotel California"
+    },
+    {
+        "id": 4,
+        "message": "Hotel California"
+    },
+    {
+        "id": 5,
+        "message": "Hotel California"
+    }
+]
