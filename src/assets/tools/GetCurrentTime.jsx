@@ -15,5 +15,5 @@ export default function getCurrentTime(){
     hh = (hh < 10) ? "0" + hh : hh;
     mm = (mm < 10) ? "0" + mm : mm;
 
-    return hh + ":" + mm + " " + session; // 01:01 PM
+    return {hours: Number(hh), minute: Number(mm), session: session}; 
 }

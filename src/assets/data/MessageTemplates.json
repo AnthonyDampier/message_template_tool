@@ -1,22 +1,14 @@
 [
     {
         "id": 1,
-        "message": "[TimeBasedGreeting] [guest-firstName], and welcome to [company]! Room [guest-reservation-roomNumber] is now ready you. Enjoy your stay, and let us know if you need anything." 
+        "message": "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you. Enjoy your stay, and let us know if you need anything." 
     },
     {
         "id": 2,
-        "message": "Message 2: [TimeBasedGreeting] [guest-firstName], and welcome to [company]! Room [guest-reservation-roomNumber] is now ready you. Enjoy your stay, and let us know if you need anything." 
+        "message": "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you!" 
     },
     {
-        "id": 3,
-        "message": "Hotel California"
-    },
-    {
-        "id": 4,
-        "message": "Hotel California"
-    },
-    {
-        "id": 5,
-        "message": "Hotel California"
+        "id": 2,
+        "message": "Did you hear you can't make reservations at the library? They're fully booked!"
     }
 ]

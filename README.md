@@ -1,4 +1,4 @@
-# Getting Started
+# Instruction to install and run application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -8,7 +8,7 @@ In root terminal use the commands
 1. `npm install`
 2. `npm install @mui/material @emotion/react @emotion/styled`
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -20,28 +20,30 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run build`
+# Design decisions
+## Graphical User Interface (GUI)
+I choose to build my GUI using MUI for quick and appealing user experience. Building a centered panel for the user to select the needed Guest, Company, and Message (If they don't want to create a personalized message).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Language and Tools
+## I wrote application using React.js, JavaScript, and MUI. 
+Why React?
+- React is a component-base architecture that allows developer to break down complex UIs into small parts, build, test, and redeploy to a larger parent application. For this assignment, I felt that this UI would be a small part of a larger program, making React an optimal choice. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Why JavaScript?
+- JavaScript is primarily used to create dynamic websites. Facebook and now Meta design React to use JavaScript or more exactly JavaScript XML (JSX).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Why MUI?
+- MUI is a great tool to build user interfaces fast and efficiently.
 
-### `npm run eject`
+# How I verify correctness?
+I tend to listen a lot to my terminals while writing code; wether thats writing console.logs or interpreting errors and warning. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once the application is in a working state; I quickly attempt to break it by putting in incorrect inputs or disregarding the typical route a user would interact with my application. This helps me over come problems on solo projects but in a group setting; I like test oriented application development using jest.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# What did I not get to?
+For objective 6; "enter in a new message" made me want to write new messages into the JSON file of MessageTemplates. I think the functionality would be a huge plus; however could clutter the MessageTemplates with poor quality messages. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Additionally, I would make the ability for the user to refer to more data when creating a new message (i.e. lastName, city, timezone).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
