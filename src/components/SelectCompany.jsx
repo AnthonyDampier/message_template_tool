@@ -10,7 +10,7 @@ export default function SelectCompany({companiesData, company, setCompany}) {
     };
 
     return (
-        <FormControl sx={{ m: 1, minWidth: 100, width: 250 }}>
+        <FormControl sx={{ m: 1, width: .3}}>
             <InputLabel id="demo-simple-select-autowidth-label">Companies</InputLabel>
             <Select
             labelId="demo-simple-select-autowidth-label"

@@ -29,10 +29,8 @@ export default function MessageCreator({guest, company, messageTemplate, getCurr
     )
 
     return(
-        <Box>
-            <Typography sx={{display: 'flex', width: 700, backgroundColor: 'lightGreen', p: 2, borderRadius: 2, justifyContent: 'center'}} variant='h6' component='h2'>
+            <Typography sx={{display: 'flex', width: 1, p: 2, backgroundColor: 'lightGreen', borderRadius: 2, justifyContent: 'center'}} variant='h6' component='h2'>
                 {finalMessage()}
             </Typography>
-        </Box>
     )
 }

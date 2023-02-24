@@ -10,21 +10,21 @@ export default function PersonalizeMessage({setMessageTemplate}){
     const [newMessage, setNewMessage] = React.useState('')
 
     return(
-        <Box sx={{p: 5}}>
+        <Box sx={{p: 2}}>
             <Box sx={{display: 'flex', justifyContent: 'center', my: 1}}>
                 <TextField 
-                    sx={{width: 700}} 
+                    sx={{width: .8}} 
                     id="outlined-basic" 
                     label="Input your own message" 
                     variant="outlined"
                     value={newMessage}
                     onChange={(event) => setNewMessage(event.target.value)}
                 />
-                <Button sx={{mx: 1, backgroundColor: 'grey'}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
+                <Button sx={{mx: 1, backgroundColor: 'grey', width: .2}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
                     Set Message
                 </Button>
             </Box>
-            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 12}} variant='span'>
+            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 12, width: 1}} variant='span'>
                 * Enter message in variation of: "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you!"
             </Typography>
         </Box>

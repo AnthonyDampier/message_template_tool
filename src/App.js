@@ -17,9 +17,11 @@ export default function App() {
 
   return (
     <Box className="App">
-      <Typography sx={{display:'flex',justifyContent:'center', p: 10}} variant='h3' className="App-header">
-        Message Template Tool
-      </Typography>
+      <Box sx={{ display: 'flex', justifyContent: 'center', width: 1}}>
+        <Typography sx={{alignContent:'center', p: 2}} variant='h4' component='h1' className="App-header">
+          Message Template Tool
+        </Typography>
+      </Box>
       <UserInterface 
         guestData={guestData} 
         companiesData={companiesData} 

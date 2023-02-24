@@ -23,7 +23,7 @@ export default function UserInterface({guestData, companiesData, messageTemplate
 
 
     return(
-        <Box>
+        <Box sx={{width: 1}}>
             {/* Selectors */}
             <Box sx={{display:"flex", justifyContent:"center"}}>
                 {/* Select guest */}
@@ -47,7 +47,7 @@ export default function UserInterface({guestData, companiesData, messageTemplate
             {/* Create personalized message */}
             <PersonalizeMessage setMessageTemplate={setMessageTemplate}/>
             {/* Render final message */}
-            <Box sx={{display:'flex', justifyContent:"center", p:5}}>
+            <Box sx={{display:'flex', justifyContent:"center", p:2}}>
                 { guest.firstName && company.company && messageTemplate.message ?
                     <MessageCreator 
                         guest={guest} 
@@ -58,7 +58,7 @@ export default function UserInterface({guestData, companiesData, messageTemplate
                     
                     :
                     
-                    <Typography variant="h5" component="h2" >Please complete form above</Typography>
+                    <Typography variant="h6" component="h2" sx={{width: .7, display: 'flex', justifyContent: 'center'}} >Please complete form above</Typography>
                 }
             </Box>
         </Box>
