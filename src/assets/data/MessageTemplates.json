@@ -8,7 +8,15 @@
         "message": "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you!" 
     },
     {
-        "id": 2,
+        "id": 3,
         "message": "Did you hear you can't make reservations at the library? They're fully booked!"
+    },
+    {
+        "id": 4,
+        "message": "Welcome to [city], [firstName]! Your current time zone is [timezone]! Enjoy your stay with us, [company]"
+    },
+    {
+        "id": 5,
+        "message": "You're room [roomNumber] is READY!! [firstName], We hope you enjoy your stay with [company]!"
     }
 ]
