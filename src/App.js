@@ -16,7 +16,7 @@ import UserInterface from './components/UserInterface'
 export default function App() {
 
   return (
-    <Box className="App" sx={{width: 1, display: 'flexBox', justifyContent: 'center'}}>
+    <Box className="App" sx={{display: 'flexBox', justifyContent: 'center'}}>
       <Box>
         <Typography sx={{py: 2, textAlign: 'center', color: 'white'}} variant='h4' component='h1' className="App-header">
           Message Template Tool
