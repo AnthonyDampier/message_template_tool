@@ -11,9 +11,9 @@ export default function PersonalizeMessage({setMessageTemplate}){
 
     return(
         <Box sx={{py: 2}}>
-            <Box sx={{display: 'flex', justifyContent: 'center', my: 1}}>
+            <Box sx={{display: 'flex', justifyContent: 'center'}}>
                 <TextField 
-                    sx={{width: .8}} 
+                    sx={{width: .9}} 
                     id="outlined-basic" 
                     label="Input your own message" 
                     variant="outlined"
@@ -24,10 +24,10 @@ export default function PersonalizeMessage({setMessageTemplate}){
                     Set Message
                 </Button>
             </Box>
-            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 18, width: 1, p:1}} variant='span'>
+            <Typography sx={{display: 'flex', fontSize: 18, width: 1, p:1}} variant='span'>
                 * Enter message in variation of: "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you!"
             </Typography>
-            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 18, width: 1, p:1}} variant='span'>
+            <Typography sx={{display: 'flex', fontSize: 18, width: 1, p:1}} variant='span'>
                 * Options: [greeting], [firstName], [lastName], [roomNumber], [company], [city], & [timezone]
             </Typography>
         </Box>
