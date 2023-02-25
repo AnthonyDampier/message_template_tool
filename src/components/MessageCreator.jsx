@@ -11,7 +11,7 @@ export default function MessageCreator({guest, company, messageTemplate, getCurr
 
 
     React.useEffect(() => {
-        // cause the component to refresh is any of the dependencies change
+        // component will refresh is any of the dependencies change
     }, [guest, company, messageTemplate])
 
     const finalMessage = () => GenerateFinalMessage(

@@ -24,8 +24,11 @@ export default function PersonalizeMessage({setMessageTemplate}){
                     Set Message
                 </Button>
             </Box>
-            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 12, width: 1}} variant='span'>
+            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 18, width: 1, p:1}} variant='span'>
                 * Enter message in variation of: "[greeting] [firstName], and welcome to [company]! Room [roomNumber] is now ready you!"
+            </Typography>
+            <Typography sx={{display: 'flex', justifyContent:'center', fontSize: 18, width: 1, p:1}} variant='span'>
+                * Options: [greeting], [firstName], [lastName], [roomNumber], [company], [city], & [timezone]
             </Typography>
         </Box>
     )

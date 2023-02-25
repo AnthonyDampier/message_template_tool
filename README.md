@@ -38,12 +38,11 @@ Why MUI?
 # How I verify correctness?
 I tend to listen a lot to my terminals while writing code; wether thats writing console.logs or interpreting errors and warning. 
 
-Once the application is in a working state; I quickly attempt to break it by putting in incorrect inputs or disregarding the typical route a user would interact with my application. This helps me over come problems on solo projects but in a group setting; I like test oriented application development using jest.
+Once the application is in a working state; I quickly attempt to break it by putting in incorrect inputs or disregarding the typical route a user would interact with my application. This helps me locate and address problems on solo projects but in a group setting; I like test oriented application development using jest. 
 
 # What did I not get to?
-For objective 6; "enter in a new message" made me want to write new messages into the JSON file of MessageTemplates. I think the functionality would be a huge plus; however could clutter the MessageTemplates with poor quality messages. 
+For objective 6; "enter in a new message" made me want to write new messages into the JSON file of MessageTemplates. I think the functionality would be a huge plus; however, the feature could clutter the MessageTemplates with poor quality messages. This would allow me to demonstrate the ability to manipulate json files via creating, updating, and deleting messages. 
 
-Additionally, I would make the ability for the user to refer to more data when creating a new message (i.e. lastName, city, timezone).
-
+Beyond the scope of the project; I would like to incorporate SMS api to send the user generated message to the guest. Using Node.js and Twilio api; this goal would be attainable in two to three more hours of reading documentation and programming.  
 
 
