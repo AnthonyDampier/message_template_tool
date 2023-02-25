@@ -16,19 +16,21 @@ import UserInterface from './components/UserInterface'
 export default function App() {
 
   return (
-    <Box className="App">
-      <Box sx={{ display: 'flex', justifyContent: 'center', width: 1}}>
-        <Typography sx={{alignContent:'center', p: 2}} variant='h4' component='h1' className="App-header">
+    <Box className="App" sx={{width: 1, display: 'flexBox', justifyContent: 'center'}}>
+      <Box>
+        <Typography sx={{py: 2, textAlign: 'center', color: 'white'}} variant='h4' component='h1' className="App-header">
           Message Template Tool
         </Typography>
       </Box>
-      <UserInterface 
-        guestData={guestData} 
-        companiesData={companiesData} 
-        messageTemplates={messageTemplates} 
-        timeBasedGreetings={timeBasedGreetings}
-        getCurrentTime={getCurrentTime}
-      />
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignContent: 'center'}}>
+        <UserInterface 
+          guestData={guestData} 
+          companiesData={companiesData} 
+          messageTemplates={messageTemplates} 
+          timeBasedGreetings={timeBasedGreetings}
+          getCurrentTime={getCurrentTime}
+        />
+      </Box>
     </Box>
   );
 }

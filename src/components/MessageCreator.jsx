@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import { Typography, Box } from "@mui/material";
+import { Typography} from "@mui/material";
 
 // import tools
 import GetTimeBasedGreeting from "../assets/tools/GetTimeBasedGreeting";

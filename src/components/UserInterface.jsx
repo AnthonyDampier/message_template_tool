@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Box } from "@mui/system";
-import { Typography} from '@mui/material';
+import { Typography, Card} from '@mui/material';
 
 // imported components
 import SelectGuest from "./SelectGuest";
@@ -23,9 +23,9 @@ export default function UserInterface({guestData, companiesData, messageTemplate
 
 
     return(
-        <Box sx={{width: 1}}>
+        <Card sx={{width: .8, p: 4}}>
             {/* Selectors */}
-            <Box sx={{display:"flex", justifyContent:"center"}}>
+            <Box sx={{display:"flex", justifyContent:"space-between"}}>
                 {/* Select guest */}
                 <SelectGuest 
                     guestData={guestData} 
@@ -43,7 +43,6 @@ export default function UserInterface({guestData, companiesData, messageTemplate
                     messageTemplate={messageTemplate} 
                 />
             </Box>
-
             {/* Create personalized message */}
             <PersonalizeMessage setMessageTemplate={setMessageTemplate}/>
             {/* Render final message */}
@@ -61,6 +60,6 @@ export default function UserInterface({guestData, companiesData, messageTemplate
                     <Typography variant="h6" component="h2" sx={{width: .7, display: 'flex', justifyContent: 'center'}} >Please complete form above</Typography>
                 }
             </Box>
-        </Box>
+        </Card>
     )
 }

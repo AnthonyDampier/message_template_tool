@@ -12,7 +12,7 @@ export default function SelectGuest({guestData, guest, setGuest}) {
     };
 
     return (
-        <FormControl sx={{ m: 1, width: .3}}>
+        <FormControl sx={{width: .33}}>
             <InputLabel id="demo-simple-select-autowidth-label">Guest</InputLabel>
             <Select
             labelId="demo-simple-select-autowidth-label"

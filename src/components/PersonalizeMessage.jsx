@@ -10,7 +10,7 @@ export default function PersonalizeMessage({setMessageTemplate}){
     const [newMessage, setNewMessage] = React.useState('')
 
     return(
-        <Box sx={{p: 2}}>
+        <Box sx={{py: 2}}>
             <Box sx={{display: 'flex', justifyContent: 'center', my: 1}}>
                 <TextField 
                     sx={{width: .8}} 
@@ -20,7 +20,7 @@ export default function PersonalizeMessage({setMessageTemplate}){
                     value={newMessage}
                     onChange={(event) => setNewMessage(event.target.value)}
                 />
-                <Button sx={{mx: 1, backgroundColor: 'grey', width: .2}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
+                <Button sx={{ml: 1, backgroundColor: 'grey', width: 'fit-content'}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
                     Set Message
                 </Button>
             </Box>
