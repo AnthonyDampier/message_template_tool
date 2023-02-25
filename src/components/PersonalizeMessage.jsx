@@ -20,8 +20,8 @@ export default function PersonalizeMessage({setMessageTemplate}){
                     value={newMessage}
                     onChange={(event) => setNewMessage(event.target.value)}
                 />
-                <Button sx={{ml: 1, backgroundColor: 'grey', width: 'fit-content'}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
-                    Set Message
+                <Button sx={{ml: 1, backgroundColor: 'gray', ':hover': { bgcolor: 'blue', color:'white',}, width: 'fit-content'}} variant="contained" onClick={() => setMessageTemplate({message: newMessage})}>
+                    Submit
                 </Button>
             </Box>
             <Typography sx={{display: 'flex', fontSize: 18, width: 1, p:1}} variant='span'>
